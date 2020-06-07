@@ -2,8 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 4.5rem;
@@ -11,8 +9,6 @@ h1 {
   font-weight: bold;
   line-height: 2;
 }
-
-
 
 h3 {
   font-family: 'Libre Baskerville', serif;
@@ -50,10 +46,22 @@ hr {
   font-family: "Libre Baskerville", serif;
   text-align: center;
 }
+
 .sticky {
   position: fixed;
-  top:0;
+  top: 0;
   width: 100%;
+}
+
+.nav-item {
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.nav-item:hover {
+  background-color: #dbe2ef;
+  color: #fff;
 }
 
 /* Intro section */
@@ -106,6 +114,7 @@ hr {
     margin: 10px 10%;
   }
 }
+
 /* Skills section */
 #skills {
   background: rgb(63, 114, 175);
@@ -124,6 +133,7 @@ hr {
 
 .arrow:hover {
   background-color: #3f72af;
+  cursor: pointer;
 }
 
 .skills-heading {
@@ -136,7 +146,7 @@ hr {
   margin: auto;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
   .list-group {
     width: 80%;
     margin: auto;
@@ -164,19 +174,16 @@ hr {
 }
 
 .html {
-
   background-color: #dbe2ef;
   padding-left: 5px;
 }
 
-.css{
-
+.css {
   background-color: #dbe2ef;
   padding-left: 5px;
 }
 
 .javascript {
-
   background-color: #dbe2ef;
   padding-left: 5px;
 }
