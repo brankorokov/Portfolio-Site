@@ -5,7 +5,7 @@ html {
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 4.5rem;
-  color: #112d4e;
+  color: #f9f7f7;
   font-weight: bold;
   line-height: 2;
 }
@@ -138,7 +138,7 @@ hr {
 
 .skills-heading {
   margin-bottom: 60px;
-  color: #112d4e;
+  color: #f9f7f7;
 }
 
 .list-group {
@@ -192,3 +192,5 @@ hr {
   background-color: #dbe2ef;
   padding-left: 5px;
 }
+
+/* education */
