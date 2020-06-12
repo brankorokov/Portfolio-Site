@@ -96,9 +96,16 @@ hr {
   padding-bottom: 100px;
 }
 
+.about-hr {
+  border: none;
+  border-top: 8px dotted;
+  width: 60px;
+}
+
 .about-content {
   text-align: center;
   margin-bottom: 80px;
+
 }
 
 .about-heading {
@@ -126,13 +133,13 @@ hr {
 
 .arrow {
   border-radius: 50%;
-  -webkit-transition: background-color 200ms linear;
-  -ms-transition: background-color 200ms linear;
-  transition: background-color 200ms linear;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
 }
 
 .arrow:hover {
-  background-color: #3f72af;
+  color: #3f72af;
   cursor: pointer;
 }
 
@@ -194,3 +201,29 @@ hr {
 }
 
 /* education */
+
+
+/* footer */
+
+#footer {
+  background-color: #dbe2ef;
+  padding: 20px;
+}
+
+.footer-icon {
+  font-size: 1.2 rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+
+.fa-github-square:hover {
+  color: #F1502F;
+}
+
+.fa-linkdin:hover {
+  color: #0072b1;
+}
