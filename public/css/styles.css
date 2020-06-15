@@ -128,7 +128,7 @@ hr {
   background: radial-gradient(circle, rgba(63, 114, 175, 1) 35%, rgba(17, 45, 78, 1) 100%);
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 
 .arrow {
@@ -200,6 +200,23 @@ hr {
   padding-left: 5px;
 }
 
+.resume {
+  background-color: #f9f7f7;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
+  padding: 10px;
+  border-radius: 12px;
+  display: block;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.resume:hover {
+  color: black;
+  background-color: #dbe2ef;
+  text-decoration: none;
+}
 /* education */
 
 
